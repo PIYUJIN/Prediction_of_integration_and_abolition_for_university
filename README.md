@@ -18,7 +18,7 @@ Topic : Prediction of Integration And Abolition for University
 
 
 
-Data description
+Dataset description
 
 1. [Filtered government sponsorship university list][TILlink]
 - This dataset has 3 columns, Year, University, and Gov_Sponsorship.
