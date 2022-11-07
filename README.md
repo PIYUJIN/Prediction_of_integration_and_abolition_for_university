@@ -15,6 +15,10 @@ Topic : Prediction of Integration And Abolition for University
 
 [TILlink]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Filtered_University
 
+[2022.11.07] : [First Phase of Progress : Data Merging for Proprocessing][TILlink1]
+
+[TILlink1]: https://github.com/jeewonkimm2/Business_Analytics/blob/main/Progress/Progress_First_Phase.ipynb
+
 
 
 
