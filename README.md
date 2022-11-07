@@ -15,7 +15,7 @@ Topic : Prediction of Integration And Abolition for University
 
 [TILlink]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Filtered_University
 
-[2022.11.07] : [First Phase of Progress : Data Merging for Proprocessing][TILlink1]
+[2022.11.07] : [First Phase of Progress : Data Merging for Preprocessing][TILlink1]
 
 [TILlink1]: https://github.com/jeewonkimm2/Business_Analytics/blob/main/Progress/Progress_First_Phase.ipynb
 
@@ -32,7 +32,7 @@ Dataset description
     - 1 : Government sponsorship
     - 0 : No government sponsorship
 
-2. [Filtered government sponsorship university list][TILlink2]
+2. [Merged Dataset for Preprocessing][TILlink2]
 - 수정
 
 [TILlink2]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Progress_Merged_data
