@@ -31,3 +31,8 @@ Dataset description
   - Gov_Sponsorship
     - 1 : Government sponsorship
     - 0 : No government sponsorship
+
+2. [Filtered government sponsorship university list][TILlink2]
+- 수정
+
+[TILlink2]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Progress_Merged_data
