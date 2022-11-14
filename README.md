@@ -19,7 +19,13 @@ Topic : Prediction of Integration And Abolition for University
 
 [TILlink1]: https://github.com/jeewonkimm2/Business_Analytics/blob/main/Progress/Progress_First_Phase.ipynb
 
+[2022.11.10] : [Second Phase of Progress : Data Merging for Preprocessing][TILlink2]
 
+[TILlink2]: https://github.com/jeewonkimm2/Business_Analytics/blob/main/Progress/Business_Analysis_project.ipynb
+
+[2022.11.12] : [EDA : Visualization via Matplotlib][TILlink3]
+
+[TILlink3]: https://github.com/jeewonkimm2/Business_Analytics/blob/main/Progress/Barplot.ipynb
 
 
 Dataset description
