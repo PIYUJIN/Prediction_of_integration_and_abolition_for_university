@@ -76,7 +76,7 @@ Topic : Prediction of Integration And Abolition for University
       - r2 score : 0.6116517939646415
   7. When fit is **KernelRidgeRegression**
       - r2 score : 0.6363528761071908
-- <U> Conclusion from model training </U>
+- Conclusion from model training
   - **GradientBoostingRegressor** performed the best on our dataset with parameters {'fit__loss': 'ls', 'fit__max_depth': 7, 'fit__max_features': 'sqrt', 'fit__min_samples_split': 6}
 - Applying on test dataset
   - r2 score : 0.9192784570251001
