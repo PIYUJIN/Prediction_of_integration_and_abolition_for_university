@@ -5,14 +5,89 @@ Goal : To define a problem and use data analysis to solve it.
 
 Topic : Prediction of Integration And Abolition for University
 
-### 1. [Dataset][TILlink]
-[TILlink]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data
+### 1. [Dataset][link]
+[link]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data
 
 
-1. [Filtered government sponsorship university list][TILlink]
+1. [Filtered government sponsorship university list][link2]
+
+[link2]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Filtered_University
 - This dataset has 3 columns, Year, University, and Gov_Sponsorship.
+- Our team manually collected separate dataset from Korea Development Institute and editted into one file.
   - Year : The year of evaluation
   - University : The name of university
   - Gov_Sponsorship
     - 1 : Government sponsorship
     - 0 : No government sponsorship
+
+2. [Progress dataset][link3]
+
+[link3]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Progress_Merged_data
+
+설명필
+
+3. [Final dataset][link4]
+
+[link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Final_dataset
+
+
+설명필
+
+
+### 2. [Progress Phase][link5]
+[link5]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Progress
+
+설명필
+
+
+
+### 3. [Final Phase][link6]
+[link6]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Final
+
+1. 
+추가
+
+
+
+
+2. Model training and predicting result
+
+- File Name : main_training.ipynb
+- Independent variables(X) : '연도','시도','대계열','중계열','모집인원_학부계','Gov_Spnsorship','awareness','Total_fertility_rate','Net_Mover','immigration','schoolage'
+- Target variable(y) : '지원자_전체_계'
+- Model Selection : GridSearchCV(KFold when n_splits is 5) and train_test_split(Train, Test, and Validation)
+- Preprocessing with ColumnTransformer
+  - Numeric features : '모집인원_학부_계','Total_fertility_rate','Net_Mover','immigration','schoolage'
+    - We used polynomialfeatures with degree 2 and standardscaler.
+  - Categorical features : '연도','시도','대계열','중계열','Gov_Spnsorship','awareness'
+    - We used onehotencoder.
+- Pipeline combining preprocessor
+  1. When fit is **LinearRegression**
+      - r2 score : 0.622863334546101
+  2. When fit is **LassoRegression**
+      - r2 score : 0.6232647986187436
+  3. When fit is **RidgeRegression**
+      - r2 score : 0.6228460532502517
+  4. When fit is **GradientBoostingRegressor**
+      - r2 score : 0.6961511258186199
+  5. When fit is **RandomForestRegressor**
+      - r2 score : 0.6447984110664
+  6. When fit is **SupportVectorRegression**
+      - r2 score : 0.6116517939646415
+  7. When fit is **KernelRidgeRegression**
+      - r2 score : 0.6363528761071908
+- <U> Conclusion from model training </U>
+  - **GradientBoostingRegressor** performed the best on our dataset with parameters {'fit__loss': 'ls', 'fit__max_depth': 7, 'fit__max_features': 'sqrt', 'fit__min_samples_split': 6}
+- Applying on test dataset
+  - r2 score : 0.9192784570251001
+  
+  
+2. Predicting future admission
+- File Name : main_training.ipynb
+- Phase
+  - Importing future dataset for future independent variables.
+  - Applying the best model and hyperparameters we obtained from previous step.
+  - A type of target variable['지원자_전체_계'] was changed into integer because it is counting the number of human.
+  - We could obtain 'competition_rate' rate, which is our final goal, dividing '지원자_전체_계' into '모집인원_학부_계'
+  - Extracted the data into excel for visualization.
+
