@@ -24,14 +24,48 @@ Topic : Prediction of Integration And Abolition for University
 
 [link3]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Progress_Merged_data
 
-설명필
++ Year : Year information for each admission
++ Region : Region information for each school
++ Departmental Affiliation : A major classification of departmental affiliations
++ The number to be admitted : Information on students admitted by departments
++ Candidate : The number of candidates
++ The number of admissions : Information on students who admitted
++ Government financial support
+    - 1 : Existence of government financial support
+    - 0 : No existence of government financial support
++ School & Department : Information merged on school and each department
++ Competition rate : Information derived from dividing the number of applicants by the number to be admitted
++ Total fertility rate : Information on fertility rate by each region
++ Net mover : Information on net mover by each region
++ Immigration : Information on the number of immigration
+
+
 
 3. [Final dataset][link4]
 
 [link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Final_dataset
 
 
-설명필
+  + Year : Year information for each admission
+  + Region : Region information for each school
+  + Departmental Affiliation (major series) : A major classification of departmental affiliations 
+  + Departmental Affiliation (middle series) : A middle classification of departmental affiliations 
+  + The number to be admitted : Information on students admitted by departments
+  + Candidate : The number of candidates
+  + The number of admissions : Information on students who admitted
+  + Government financial support
+      - 1 : Existence of government financial support
+      - 0 : No existence of government financial support
+  + Awareness : Information on awareness of departmental affiliations to students by each year
+  + School & Department : Information merged on school and each department
+  + Competition rate : Information derived from dividing the number of applicants by the number to be admitted
+  + Total fertility rate : Information on fertility rate by each region
+  + Net mover : Information on net mover by each region
+  + Immigration : Information on the number of immigration
+  + Schoolage : Information on schoolage population by each year
+
+
+
 
 
 ### 2. [Progress Phase][link5]
