@@ -125,3 +125,8 @@ Topic : Prediction of Integration And Abolition for University
   - We could obtain 'competition_rate' rate, which is our final goal, dividing '지원자_전체_계' into '모집인원_학부_계'
   - Extracted the data into excel for visualization.
 
+### 5. [Visualization][link]
+[link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Visualization
+
+https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png
+![conclusion_image](./blob/main/Visualization/image.png)
