@@ -130,9 +130,12 @@ Topic : Prediction of Integration And Abolition for University
 
 ![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/map_image.png)
 #### Average university competitiveness by region in 2026  
+The larger the size of the circle on the map, the higher the mean. You can check the area and figures according to the color on the right side of the map.  
 
 ![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/pie_chart.png)
 #### Additional analysis of Jeju with the lowest average competitiveness and Incheon with the highest average competitiveness  
+We analyzed Incheon with the highest average and Incheon with the lowest average in detail. While 65% of all universities in Jeju Island belong to the bottom 20% group, there were no universities belonging to the group in Incheon. Also, 74.2% of universities in Incheon are in the top 40% group.  We think that the geographical disadvantage of Jeju has resulted in this.  
 
 ![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png)
 #### The list of universities with poor competency and the number of times selected for each year  
+The departments on this list are in danger of being eliminated due to lack of competitiveness. In particular, in the case of Gyeongju University's_special physical education department, the risk of disappearing is very high, so it is recommended not to enter.  
