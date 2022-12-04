@@ -128,11 +128,11 @@ Topic : Prediction of Integration And Abolition for University
 ### 5. [Visualization][link]
 [link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Visualization  
 
-![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/map_image.png)  
+![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/map_image.png)
 #### Average university competitiveness by region in 2026  
 
-![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/pie_chart.png)  
+![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/pie_chart.png)
 #### Additional analysis of Jeju with the lowest average competitiveness and Incheon with the highest average competitiveness  
 
-![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png)  
+![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png)
 #### The list of universities with poor competency and the number of times selected for each year  
