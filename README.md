@@ -8,11 +8,11 @@
 - Goal : To predict departments that might be integrated or abolished using competition rate for each department of schools.
 
 ### 1. Background
- - A trend of decreasing the school-age population and the number of students eligible for admission.
-  <img width="423" alt="image" src="https://user-images.githubusercontent.com/108987773/205484547-e6a3a80a-b0bf-4f08-83d3-3842f91fd397.png">
+- A trend of decreasing the school-age population and the number of students eligible for admission.
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/108987773/205484547-e6a3a80a-b0bf-4f08-83d3-3842f91fd397.png">
   
 - Trends in integration and abolition of university departments is increasing in South Korea.
-  <img width="407" alt="image" src="https://user-images.githubusercontent.com/108987773/205484592-5adcd29a-8e45-4a8f-997d-d1fec2b04557.png">
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/108987773/205484592-5adcd29a-8e45-4a8f-997d-d1fec2b04557.png">
   
 **<U>As the number of students decreased, the restructuring of universities was also being carried out intensively.</U>**
 
