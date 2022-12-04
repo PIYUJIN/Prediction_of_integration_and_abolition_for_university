@@ -128,5 +128,5 @@ Topic : Prediction of Integration And Abolition for University
 ### 5. [Visualization][link]
 [link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Visualization
 
-https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png
-![conclusion_image](./blob/main/Visualization/image.png)
+https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png  
+![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/image.png)
