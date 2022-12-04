@@ -1,11 +1,27 @@
-# Business_Analytics
-It is a team project for the year 3 module, Business Analytics from Seoul Tech.
+# [Business Analytics Term Project]
 
-Goal : To define a problem and use data analysis to solve it.
+## Overview
+- It is a term project for the year 3 module, Business Analytics. We needed to find any problem that can be solved by data mining techniques in one of business domains.
 
-Topic : Prediction of Integration And Abolition for University
+- Topic : Prediction of integration and abolition for university.
 
-### 1. [Dataset][link]
+- Goal : To predict departments that might be integrated or abolished using competition rate for each department of schools.
+
+### 1. Background
+ - A trend of decreasing the school-age population and the number of students eligible for admission.
+  <img width="423" alt="image" src="https://user-images.githubusercontent.com/108987773/205484547-e6a3a80a-b0bf-4f08-83d3-3842f91fd397.png">
+  
+- Trends in integration and abolition of university departments is increasing in South Korea.
+  <img width="407" alt="image" src="https://user-images.githubusercontent.com/108987773/205484592-5adcd29a-8e45-4a8f-997d-d1fec2b04557.png">
+  
+**<U>As the number of students decreased, the restructuring of universities was also being carried out intensively.</U>**
+
+- Expected Effect
+  - For Student : The predictions can be considered when selecting a university to go.
+  - For University : With the predictions, universities can know the position of themselves and prepare for changing phenomenons.
+
+
+### 2. [Dataset][link]
 [link]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data
 
 
@@ -78,7 +94,7 @@ Topic : Prediction of Integration And Abolition for University
 
 
 
-### 2. [Obtaining best model and hyperparameters][link6]
+### 3. [Obtaining best model and hyperparameters][link6]
 [link6]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Final
 
 1. Model training and predicting result
@@ -108,7 +124,7 @@ Topic : Prediction of Integration And Abolition for University
   7. When fit is **KernelRidgeRegression**
       - r2 score : 0.6363528761071908
 - <U> Conclusion from model training </U>
-  - **GradientBoostingRegressor** performed the best on our dataset with parameters {'fit__loss': 'ls', 'fit__max_depth': 7, 'fit__max_features': 'sqrt', 'fit__min_samples_split': 6}
+  - **GradientBoostingRegressor** performed the best on our dataset with **hyperparameters {'fit__loss': 'ls', 'fit__max_depth': 7, 'fit__max_features': 'sqrt', 'fit__min_samples_split': 6}**
 - Applying on test dataset
   - r2 score : 0.9192784570251001
   
@@ -122,7 +138,7 @@ Topic : Prediction of Integration And Abolition for University
   - We could obtain 'competition_rate' rate, which is our final goal, dividing '지원자_전체_계' into '모집인원_학부_계'
   - Extracted the data into excel for visualization.
 
-### 3. [Visualization][link7]
+### 4. [Visualization and Conclusion][link7]
 [link7]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Visualization
 
 ![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/map_image.png)
