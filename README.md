@@ -63,12 +63,46 @@
 
 - File Name : future.csv
 
++ The number to be admitted : Information on students admitted by departments
++ Candidate : The number of candidates
++ Government financial support 
+    - 1 : Existence of government financial support
+    - 0 : No existence of government financial support
++ Awareness : Information on awareness of departmental affiliations to students
++ Total fertility rate : Information on fertility rate by each region
++ Net mover : Information on net mover by each region
++ Immigration : Information on the number of immigration
++ Schoolage : Information on schoolage population by each year
+
+      Q. how to get future features?
+      'Schoolage' column : dataset in statistics Korea
+      'The number to be admitted', 'Government financial support', 'Awareness' column : maintain 2021 data to find the change of competition rate in same condition
+      'Total fertility rate', 'Net mover', 'Immigration' : Calculate average of difference between 2 years with last 3 years data and subtract from last data
+      
+- File Name : future features 2022/2023/2024/2025/2026.ipynb 
+
+  - Total fertility rate
+  ```Python
+  fertility_rate_dif = (float(fertility_rate_2019['Total_fertility_rate']) - float(fertility_rate_2020['Total_fertility_rate'])) + (float(fertility_rate_2020['Total_fertility_rate']) - float(fertility_rate_2021['Total_fertility_rate']))
+  avg_ft.append(fertility_rate_dif / 2)
+  ```
+  - Net mover
+  ```Python
+  net_mover_dif = (float(net_mover_2019['Net_Mover']) - float(net_mover_2020['Net_Mover'])) + (float(net_mover_2020['Net_Mover']) - float(net_mover_2021['Net_Mover']))
+  avg_net.append(net_mover_dif / 2) 
+  ```
+  - Immigration
+  ```Python
+  immigration_dif = (float(immigration_2019['immigration']) - float(immigration_2020['immigration'])) + (float(immigration_2020['immigration']) - float(immigration_2021['immigration']))
+  avg_imm.append(immigration_dif / 2)
+  ```
 
 
 4. [Final dataset][link4]
 
 [link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Data/Final_dataset
 
+**3717 * 7(years) = 26019 Instances**
 
   + Year : Year information for each admission
   + Region : Region information for each school
@@ -88,8 +122,31 @@
   + Immigration : Information on the number of immigration
   + Schoolage : Information on schoolage population by each year
 
+#### Preprocessing
+  - File Name : future features 2022.ipynb
+  
+    - only using intersection data
+    ```Python
+    b = a_2015.intersection(a_2016)
+    b = b.intersection(a_2017)
+    b = b.intersection(a_2018)
+    b = b.intersection(a_2019)
+    b = b.intersection(a_2020)
+    b = b.intersection(a_2021)
+    bl = list(b)
 
-
+    main_check = main.loc[main['학교_학과명'].isin(bl)]
+    ```
+    - handling duplicated data
+    ```Python
+    main_2015 = main_2015.drop_duplicates(['학교_학과명'], keep='first')
+    main_2016 = main_2016.drop_duplicates(['학교_학과명'], keep='first')
+    main_2017 = main_2017.drop_duplicates(['학교_학과명'], keep='first')
+    main_2018 = main_2018.drop_duplicates(['학교_학과명'], keep='first')
+    main_2019 = main_2019.drop_duplicates(['학교_학과명'], keep='first')
+    main_2020 = main_2020.drop_duplicates(['학교_학과명'], keep='first')
+    main_2021 = main_2021.drop_duplicates(['학교_학과명'], keep='first')
+    ```
 
 
 
