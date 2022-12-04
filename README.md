@@ -67,24 +67,10 @@ Topic : Prediction of Integration And Abolition for University
 
 
 
-
-### 2. [Progress Phase][link5]
-[link5]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Progress
-
-설명필
-
-
-
-### 3. [Final Phase][link6]
+### 2. [Obtaining best model and hyperparameters][link6]
 [link6]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Final
 
-1. 
-추가
-
-
-
-
-2. Model training and predicting result
+1. Model training and predicting result
 
 - File Name : main_training.ipynb
 - Independent variables(X) : '연도','시도','대계열','중계열','모집인원_학부계','Gov_Spnsorship','awareness','Total_fertility_rate','Net_Mover','immigration','schoolage'
@@ -125,7 +111,7 @@ Topic : Prediction of Integration And Abolition for University
   - We could obtain 'competition_rate' rate, which is our final goal, dividing '지원자_전체_계' into '모집인원_학부_계'
   - Extracted the data into excel for visualization.
 
-### 5. [Visualization][link]
+### 5. [Visualization][link4]
 [link4]: https://github.com/jeewonkimm2/Business_Analytics/tree/main/Visualization  
 
 ![conclusion_image](https://github.com/jeewonkimm2/Business_Analytics/blob/main/Visualization/map_image.png)
