@@ -74,10 +74,10 @@
 + Immigration : Information on the number of immigration
 + Schoolage : Information on schoolage population by each year
 
-      Q. how to get future features?
-      'Schoolage' column : dataset in statistics Korea
-      'The number to be admitted', 'Government financial support', 'Awareness' column : maintain 2021 data to find the change of competition rate in same condition
-      'Total fertility rate', 'Net mover', 'Immigration' : Calculate average of difference between 2 years with last 3 years data and subtract from last data
+#### Q. how to get future features?
+    'Schoolage' column : dataset in statistics Korea
+    'The number to be admitted', 'Government financial support', 'Awareness' column : maintain 2021 data to find the change of competition rate in same condition
+    'Total fertility rate', 'Net mover', 'Immigration' : Calculate average of difference between 2 years with last 3 years data and subtract from last data
       
 - File Name : future features 2022/2023/2024/2025/2026.ipynb 
 
