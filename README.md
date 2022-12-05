@@ -1,4 +1,4 @@
-# [Business Analytics Term Project]
+# Business Analytics Term Project
 
 ## Overview
 - It is a term project for the year 3 module, Business Analytics. We needed to find any problem that can be solved by data mining techniques in one of business domains.
